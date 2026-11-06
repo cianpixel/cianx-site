@@ -28,6 +28,32 @@
   ],
   "items": [
     {
+      "id": "cockpit-tools",
+      "name": "Cockpit Tools",
+      "url": "https://github.com/jlcodes99/cockpit-tools",
+      "icon": "assets/icons/cockpit-tools.png",
+      "type": "tool",
+      "description": "Ứng dụng desktop quản lý tài khoản cho các AI IDE và CLI lập trình: hỗ trợ Antigravity, Codex, GitHub Copilot, Windsurf, Kiro, Cursor, Grok CLI, CodeBuddy, Qoder, Trae, Zed, ZCode và nhiều công cụ khác. Cho phép lưu nhiều tài khoản và chuyển đổi qua lại bằng một cú nhấp, theo dõi hạn mức (quota) còn lại của từng tài khoản, đặt lịch tự động đánh thức để kích hoạt chu kỳ làm mới quota, và mở song song nhiều instance của cùng một IDE với các tài khoản khác nhau.",
+      "description_en": "A desktop account manager for AI IDEs and coding CLIs, supporting Antigravity, Codex, GitHub Copilot, Windsurf, Kiro, Cursor, Grok CLI, CodeBuddy, Qoder, Trae, Zed, ZCode and more. Store multiple accounts and switch between them in one click, monitor each account’s remaining quota, schedule automatic wake-up tasks that trigger quota refresh cycles, and run several instances of the same IDE in parallel, each signed into a different account.",
+      "tags": [
+        "AI IDE",
+        "Account Manager",
+        "Antigravity",
+        "Cursor",
+        "Quota"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-11-06",
+      "note": "Ứng dụng miễn phí, mã nguồn công khai trên GitHub (tác giả jlcodes99, gần 20 nghìn sao tính đến 11/2026; repo không kèm giấy phép mã nguồn mở rõ ràng). Giao diện hỗ trợ 18 ngôn ngữ, trong đó có tiếng Việt. Lưu ý: đây là dự án độc lập, không liên quan tới Cockpit Project — công cụ quản trị server Linux — dù tên gần giống nhau.",
+      "note_en": "A free app with publicly available source on GitHub (by jlcodes99, nearly 20k stars as of Nov 2026; the repo ships no clear open-source license). The interface supports 18 languages, including Vietnamese. Note: this is an independent project, unrelated to Cockpit Project — the Linux server admin tool — despite the similar name."
+    },
+    {
       "id": "claude-code-templates",
       "name": "Claude Code Templates",
       "url": "https://github.com/davila7/claude-code-templates",
