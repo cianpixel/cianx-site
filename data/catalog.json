@@ -28,6 +28,56 @@
   ],
   "items": [
     {
+      "id": "claude-code-templates",
+      "name": "Claude Code Templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "icon": "assets/icons/claude-code-templates.png",
+      "type": "tool",
+      "description": "Registry và CLI mã nguồn mở (MIT) cho hệ sinh thái Claude Code: một kho linh kiện làm sẵn gồm agent, slash command, skill, hook, tích hợp MCP, settings và mod — duyệt và xem trước tại aitmpl.com rồi cài chọn lọc vào từng dự án bằng một lệnh npx, thay vì chép tay các file cấu hình .claude. Kèm sẵn bảng analytics theo dõi phiên làm việc của Claude Code và tính năng health-check rà soát cấu hình.",
+      "description_en": "An open-source registry and CLI (MIT) for the Claude Code ecosystem: a catalog of ready-made components — agents, slash commands, skills, hooks, MCP integrations, settings and mods — that you browse and preview at aitmpl.com, then install selectively into a project with a single npx command instead of hand-copying .claude configuration files. It also ships an analytics dashboard for Claude Code sessions and a health check that audits your setup.",
+      "tags": [
+        "Claude Code",
+        "CLI",
+        "Templates",
+        "Agents",
+        "MCP"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-11-06",
+      "note": "Cài bằng lệnh npx claude-code-templates@latest (cần Node.js và Claude Code đã cài sẵn). Đây là dự án cộng đồng của Daniel Ávila (davila7), không phải sản phẩm chính thức của Anthropic; khoảng 33 nghìn sao GitHub tính đến 11/2026.",
+      "note_en": "Install with npx claude-code-templates@latest (requires Node.js and an existing Claude Code install). A community project by Daniel Ávila (davila7), not an official Anthropic product; roughly 33k GitHub stars as of Nov 2026."
+    },
+    {
+      "id": "cockpit",
+      "name": "Cockpit",
+      "url": "https://cockpit-project.org/",
+      "icon": "assets/icons/cockpit.png",
+      "type": "software",
+      "description": "Giao diện web quản trị máy chủ Linux: đăng nhập bằng chính tài khoản hệ thống qua trình duyệt (cổng 9090) để xem tổng quan tài nguyên và quản lý service systemd, lưu trữ/RAID, mạng, tài khoản người dùng, nhật ký hệ thống, máy ảo và container Podman, kèm sẵn một terminal ngay trong trang. Cockpit làm việc trực tiếp với hệ điều hành nên thao tác trên web và trên dòng lệnh luôn nhất quán với nhau.",
+      "description_en": "A web-based graphical interface for Linux servers: sign in with your regular system account in a browser (port 9090) to get a resource overview and manage systemd services, storage/RAID, networking, user accounts, system logs, virtual machines and Podman containers, with a terminal built right into the page. Cockpit talks directly to the operating system, so changes made in the web UI and on the command line always stay in sync.",
+      "tags": [
+        "Linux",
+        "Server",
+        "Sysadmin",
+        "Web UI",
+        "Systemd"
+      ],
+      "platform": [
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-11-06",
+      "note": "Mã nguồn mở (LGPL), do cộng đồng Cockpit Project phát triển (khởi nguồn từ Red Hat); có sẵn gói cài trên Fedora, RHEL, Debian, Ubuntu, openSUSE, Arch và nhiều bản phân phối khác. Mã nguồn tại github.com/cockpit-project/cockpit.",
+      "note_en": "Open source (LGPL), developed by the Cockpit Project community (originated at Red Hat); packaged for Fedora, RHEL, Debian, Ubuntu, openSUSE, Arch and many other distributions. Source code at github.com/cockpit-project/cockpit."
+    },
+    {
       "id": "shardbrowser",
       "name": "ShardBrowser",
       "url": "https://shardbrowser.com/",
