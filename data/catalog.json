@@ -377,6 +377,32 @@
       "note_en": "Open source (LGPL), developed by the Cockpit Project community (originated at Red Hat); packaged for Fedora, RHEL, Debian, Ubuntu, openSUSE, Arch and many other distributions. Source code at github.com/cockpit-project/cockpit."
     },
     {
+      "id": "rust",
+      "name": "Rust",
+      "url": "https://www.rust-lang.org/",
+      "icon": "assets/icons/rust.svg",
+      "type": "tool",
+      "description": "Ngôn ngữ lập trình hệ thống hiện đại đặt trọng tâm vào an toàn bộ nhớ và hiệu năng: cơ chế ownership cùng borrow checker loại bỏ cả một lớp lỗi bộ nhớ (con trỏ null, tranh chấp dữ liệu) ngay từ bước biên dịch mà không cần bộ thu gom rác, cho tốc độ ngang C/C++. Rust được dùng từ hệ điều hành, game engine, WebAssembly đến backend và công cụ dòng lệnh, và nhiều năm liền đứng đầu mục ngôn ngữ được ngưỡng mộ nhất trong khảo sát lập trình viên của Stack Overflow.",
+      "description_en": "A modern systems programming language focused on memory safety and performance: its ownership model and borrow checker eliminate whole classes of memory bugs (null pointers, data races) at compile time without a garbage collector, delivering C/C++-class speed. Rust powers everything from operating systems, game engines and WebAssembly to backends and command-line tools, and it has topped the most-admired language ranking in Stack Overflow’s developer survey for years.",
+      "tags": [
+        "Programming Language",
+        "Systems",
+        "Memory Safety",
+        "Compiler"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-11-11",
+      "released": "2010-07",
+      "note": "Mã nguồn mở (MIT/Apache-2.0), do Rust Foundation quản lý. Khởi nguồn là dự án cá nhân của Graydon Hoare tại Mozilla, công bố lần đầu tháng 7/2010; bản ổn định 1.0 phát hành tháng 5/2015. Cài đặt qua rustup, kho thư viện tại crates.io.",
+      "note_en": "Open source (MIT/Apache-2.0), stewarded by the Rust Foundation. It began as Graydon Hoare’s personal project at Mozilla and was first announced in July 2010; the stable 1.0 release arrived in May 2015. Install via rustup; libraries live on crates.io."
+    },
+    {
       "id": "nodejs",
       "name": "Node.js",
       "url": "https://nodejs.org/",
