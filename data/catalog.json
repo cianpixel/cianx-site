@@ -1,29 +1,24 @@
 {
   "categories": [
     {
-      "id": "software",
-      "label": "Phần mềm",
-      "label_en": "Software"
+      "id": "ai",
+      "label": "AI & Agent",
+      "label_en": "AI & Agents"
     },
     {
-      "id": "extension",
-      "label": "Extension",
-      "label_en": "Extension"
+      "id": "dev",
+      "label": "Lập trình",
+      "label_en": "Development"
     },
     {
       "id": "skill",
       "label": "Skill",
-      "label_en": "Skill"
+      "label_en": "Skills"
     },
     {
-      "id": "website",
-      "label": "Website",
-      "label_en": "Website"
-    },
-    {
-      "id": "tool",
-      "label": "Công cụ / AI",
-      "label_en": "Tools / AI"
+      "id": "utility",
+      "label": "Tiện ích",
+      "label_en": "Utilities"
     }
   ],
   "items": [
@@ -32,7 +27,7 @@
       "name": "Habblaud",
       "url": "https://habblaud.com/",
       "icon": "assets/icons/habblaud.png",
-      "type": "software",
+      "type": "ai",
       "description": "Văn phòng ảo pixel-art cho các agent Claude Code và Codex: mỗi project là một phòng, mỗi agent là một nhân vật hiển thị hoạt động trực tiếp, kèm thống kê token, chi phí ước tính, thời gian làm việc và mức dùng 5 giờ/tuần. Chạy 100% local, không telemetry.",
       "description_en": "A pixel-art virtual office for Claude Code and Codex agents: each project is a room and each agent is a character showing live activity, with token statistics, estimated cost, working time and 5-hour/weekly usage levels. Runs 100% locally, no telemetry.",
       "tags": [
@@ -60,7 +55,7 @@
       "name": "ARTEMIS",
       "url": "https://github.com/google/artemis",
       "icon": "assets/icons/artemis.png",
-      "type": "tool",
+      "type": "ai",
       "description": "Framework agent mã nguồn mở của Google giúp trợ lý AI và bộ kiểm thử dùng điện thoại Android thật như con người: nhận yêu cầu bằng ngôn ngữ tự nhiên rồi tự mở app, chạm, vuốt, nhập liệu và kiểm tra kết quả, đồng thời thu thập ảnh chụp màn hình và Logcat. Có hai chế độ Flash (vòng lặp phản ứng nhanh, 3–5 giây mỗi bước) và Pro (lập kế hoạch – thực thi – kiểm tra cho tác vụ dài). Kết nối qua MCP với Antigravity, Claude Code, Codex, Cursor..., hoặc dùng qua web console, CLI và Python SDK; Google công bố đạt 99%+ trên benchmark AndroidWorld.",
       "description_en": "Google's open-source agent framework that lets AI assistants and test suites use real Android phones like a human: it takes natural-language requests, then opens apps, taps, swipes, types and verifies the results on its own, capturing screenshots and Logcat along the way. Two modes: Flash (a reactive loop at 3–5 seconds per step) and Pro (planner–operator–checker for long tasks). It connects over MCP to Antigravity, Claude Code, Codex, Cursor and more, or runs via its web console, CLI and Python SDK; Google reports a 99%+ success rate on the AndroidWorld benchmark.",
       "tags": [
@@ -88,7 +83,7 @@
       "name": "ShardBrowser",
       "url": "https://shardbrowser.com/",
       "icon": "assets/icons/shardbrowser.png",
-      "type": "software",
+      "type": "utility",
       "description": "Trình duyệt anti-detect miễn phí của đội ProxyShard: launcher mã nguồn mở (MIT) điều khiển một engine Chromium đã vá ở tầng engine để giả lập fingerprint trình duyệt (WebGL/WebGPU, Client Hints, font chữ, TLS), kèm sẵn hơn 220 hồ sơ thiết bị thật. Không giới hạn số profile, không cần tài khoản; vận hành profile qua app desktop, API cục bộ, MCP server hoặc SDK (Python, Node.js, Rust), tương thích Playwright/Puppeteer/Selenium, có tính năng ghi thao tác để tự động hoá no-code và đồng bộ thao tác trên nhiều cửa sổ — phục vụ web scraping, automation và multi-accounting.",
       "description_en": "A free anti-detect browser from the ProxyShard team: an open-source launcher (MIT) driving a patched Chromium engine with engine-level browser fingerprint spoofing (WebGL/WebGPU, Client Hints, fonts, TLS) and 220+ bundled real-device profiles. Unlimited profiles and no account required; operate profiles from the desktop app, a local API, an MCP server or SDKs (Python, Node.js, Rust), with Playwright/Puppeteer/Selenium support, no-code action recording and synchronized windows — built for web scraping, automation and multi-accounting.",
       "tags": [
@@ -142,7 +137,7 @@
       "name": "Orca",
       "url": "https://www.onorca.dev/",
       "icon": "assets/icons/orca.png",
-      "type": "software",
+      "type": "ai",
       "description": "Môi trường desktop để chạy nhiều AI coding agent song song (Claude Code, Codex, OpenCode, Cursor CLI, Copilot...): mỗi agent làm việc trong một git worktree riêng nên không đụng file của nhau, sau đó so sánh diff và chọn kết quả tốt nhất.",
       "description_en": "A desktop environment for running multiple AI coding agents in parallel (Claude Code, Codex, OpenCode, Cursor CLI, Copilot...): each agent works in its own git worktree so they never touch each other's files, then you compare the diffs and pick the best result.",
       "tags": [
@@ -195,7 +190,7 @@
       "name": "Cockpit Tools",
       "url": "https://github.com/jlcodes99/cockpit-tools",
       "icon": "assets/icons/cockpit-tools.png",
-      "type": "tool",
+      "type": "ai",
       "description": "Ứng dụng desktop quản lý tài khoản cho các AI IDE và CLI lập trình: hỗ trợ Antigravity, Codex, GitHub Copilot, Windsurf, Kiro, Cursor, Grok CLI, CodeBuddy, Qoder, Trae, Zed, ZCode và nhiều công cụ khác. Cho phép lưu nhiều tài khoản và chuyển đổi qua lại bằng một cú nhấp, theo dõi hạn mức (quota) còn lại của từng tài khoản, đặt lịch tự động đánh thức để kích hoạt chu kỳ làm mới quota, và mở song song nhiều instance của cùng một IDE với các tài khoản khác nhau.",
       "description_en": "A desktop account manager for AI IDEs and coding CLIs, supporting Antigravity, Codex, GitHub Copilot, Windsurf, Kiro, Cursor, Grok CLI, CodeBuddy, Qoder, Trae, Zed, ZCode and more. Store multiple accounts and switch between them in one click, monitor each account’s remaining quota, schedule automatic wake-up tasks that trigger quota refresh cycles, and run several instances of the same IDE in parallel, each signed into a different account.",
       "tags": [
@@ -222,7 +217,7 @@
       "name": "Antigravity CLI",
       "url": "https://antigravity.google/",
       "icon": "assets/icons/antigravity-cli.png",
-      "type": "tool",
+      "type": "ai",
       "description": "Phiên bản dòng lệnh (lệnh agy) của nền tảng lập trình agent-first Antigravity của Google: mang khả năng agent của Antigravity 2.0 — suy luận nhiều bước, sửa nhiều file, gọi công cụ — vào thẳng terminal, thay thế Gemini CLI.",
       "description_en": "The command-line edition (the `agy` command) of Google's agent-first Antigravity platform: it brings Antigravity 2.0's agent abilities — multi-step reasoning, editing many files, tool calling — straight into the terminal, replacing Gemini CLI.",
       "tags": [
@@ -276,7 +271,7 @@
       "name": "Claude Code Templates",
       "url": "https://github.com/davila7/claude-code-templates",
       "icon": "assets/icons/claude-code-templates.png",
-      "type": "tool",
+      "type": "ai",
       "description": "Registry và CLI mã nguồn mở (MIT) cho hệ sinh thái Claude Code: một kho linh kiện làm sẵn gồm agent, slash command, skill, hook, tích hợp MCP, settings và mod — duyệt và xem trước tại aitmpl.com rồi cài chọn lọc vào từng dự án bằng một lệnh npx, thay vì chép tay các file cấu hình .claude. Kèm sẵn bảng analytics theo dõi phiên làm việc của Claude Code và tính năng health-check rà soát cấu hình.",
       "description_en": "An open-source registry and CLI (MIT) for the Claude Code ecosystem: a catalog of ready-made components — agents, slash commands, skills, hooks, MCP integrations, settings and mods — that you browse and preview at aitmpl.com, then install selectively into a project with a single npx command instead of hand-copying .claude configuration files. It also ships an analytics dashboard for Claude Code sessions and a health check that audits your setup.",
       "tags": [
@@ -303,7 +298,7 @@
       "name": "OpenCode",
       "url": "https://opencode.ai/",
       "icon": "assets/icons/opencode.png",
-      "type": "tool",
+      "type": "ai",
       "description": "AI coding agent mã nguồn mở chạy trong terminal (cũng có app desktop và extension IDE): viết, sửa và debug code bằng ngôn ngữ tự nhiên, kết nối hơn 75 nhà cung cấp model như Claude, GPT, Gemini hoặc model local qua Ollama, không bị khoá vào một hãng duy nhất.",
       "description_en": "An open-source AI coding agent that runs in the terminal (also available as a desktop app and IDE extension): write, edit and debug code in natural language, connected to 75+ model providers such as Claude, GPT, Gemini or local models via Ollama — never locked to a single vendor.",
       "tags": [
@@ -330,7 +325,7 @@
       "name": "Bruno",
       "url": "https://www.usebruno.com/",
       "icon": "assets/icons/bruno.png",
-      "type": "software",
+      "type": "dev",
       "description": "API client mã nguồn mở thay thế Postman/Insomnia: chạy offline, lưu collection thành các file text .bru ngay trong thư mục project nên quản lý phiên bản bằng Git dễ dàng; hỗ trợ REST, GraphQL, gRPC và WebSocket.",
       "description_en": "An open-source API client that replaces Postman/Insomnia: it runs offline and stores collections as plain-text .bru files right inside your project folder, so they version cleanly with Git; supports REST, GraphQL, gRPC and WebSocket.",
       "tags": [
@@ -356,7 +351,7 @@
       "name": "Cockpit",
       "url": "https://cockpit-project.org/",
       "icon": "assets/icons/cockpit.png",
-      "type": "software",
+      "type": "utility",
       "description": "Giao diện web quản trị máy chủ Linux: đăng nhập bằng chính tài khoản hệ thống qua trình duyệt (cổng 9090) để xem tổng quan tài nguyên và quản lý service systemd, lưu trữ/RAID, mạng, tài khoản người dùng, nhật ký hệ thống, máy ảo và container Podman, kèm sẵn một terminal ngay trong trang. Cockpit làm việc trực tiếp với hệ điều hành nên thao tác trên web và trên dòng lệnh luôn nhất quán với nhau.",
       "description_en": "A web-based graphical interface for Linux servers: sign in with your regular system account in a browser (port 9090) to get a resource overview and manage systemd services, storage/RAID, networking, user accounts, system logs, virtual machines and Podman containers, with a terminal built right into the page. Cockpit talks directly to the operating system, so changes made in the web UI and on the command line always stay in sync.",
       "tags": [
@@ -381,7 +376,7 @@
       "name": "Rust",
       "url": "https://www.rust-lang.org/",
       "icon": "assets/icons/rust.svg",
-      "type": "tool",
+      "type": "dev",
       "description": "Ngôn ngữ lập trình hệ thống hiện đại đặt trọng tâm vào an toàn bộ nhớ và hiệu năng: cơ chế ownership cùng borrow checker loại bỏ cả một lớp lỗi bộ nhớ (con trỏ null, tranh chấp dữ liệu) ngay từ bước biên dịch mà không cần bộ thu gom rác, cho tốc độ ngang C/C++. Rust được dùng từ hệ điều hành, game engine, WebAssembly đến backend và công cụ dòng lệnh, và nhiều năm liền đứng đầu mục ngôn ngữ được ngưỡng mộ nhất trong khảo sát lập trình viên của Stack Overflow.",
       "description_en": "A modern systems programming language focused on memory safety and performance: its ownership model and borrow checker eliminate whole classes of memory bugs (null pointers, data races) at compile time without a garbage collector, delivering C/C++-class speed. Rust powers everything from operating systems, game engines and WebAssembly to backends and command-line tools, and it has topped the most-admired language ranking in Stack Overflow’s developer survey for years.",
       "tags": [
@@ -407,7 +402,7 @@
       "name": "Node.js",
       "url": "https://nodejs.org/",
       "icon": "assets/icons/nodejs.png",
-      "type": "tool",
+      "type": "dev",
       "description": "Môi trường chạy JavaScript ngoài trình duyệt, xây trên engine V8 của Chrome: dùng cùng một ngôn ngữ cho cả frontend lẫn backend, đi kèm npm — kho phần mềm lớn nhất thế giới. Mô hình event-driven với I/O không chặn (non-blocking) khiến Node.js đặc biệt phù hợp cho web server, API, ứng dụng realtime và các công cụ dòng lệnh.",
       "description_en": "A JavaScript runtime that runs outside the browser, built on Chrome’s V8 engine: one language for both frontend and backend, bundled with npm — the world’s largest software registry. Its event-driven, non-blocking I/O model makes Node.js a natural fit for web servers, APIs, realtime applications and command-line tools.",
       "tags": [
@@ -433,7 +428,7 @@
       "name": "Navicat Premium",
       "url": "https://www.navicat.com/en/products/navicat-premium",
       "icon": "assets/icons/navicat-premium.png",
-      "type": "software",
+      "type": "dev",
       "description": "Công cụ quản lý và phát triển cơ sở dữ liệu tất cả trong một: kết nối đồng thời MySQL, PostgreSQL, MariaDB, SQL Server, Oracle, SQLite, MongoDB, Redis và Snowflake từ một ứng dụng duy nhất, hỗ trợ thiết kế mô hình dữ liệu, đồng bộ và di chuyển dữ liệu.",
       "description_en": "An all-in-one database management and development tool: connect to MySQL, PostgreSQL, MariaDB, SQL Server, Oracle, SQLite, MongoDB, Redis and Snowflake simultaneously from a single app, with data modeling, synchronization and migration tools.",
       "tags": [
@@ -460,7 +455,7 @@
       "name": "Sublime Text",
       "url": "https://www.sublimetext.com/",
       "icon": "assets/icons/sublime-text.png",
-      "type": "software",
+      "type": "dev",
       "description": "Trình soạn thảo code siêu nhẹ và khởi động cực nhanh: Goto Anything, chỉnh sửa nhiều vị trí cùng lúc, Command Palette, tuỳ biến sâu bằng JSON và mở rộng bằng plugin Python qua Package Control.",
       "description_en": "A featherweight code editor that starts almost instantly: Goto Anything, editing at multiple positions at once, Command Palette, deep customization via JSON and Python plugins through Package Control.",
       "tags": [
@@ -485,7 +480,7 @@
       "name": "Git",
       "url": "https://git-scm.com/",
       "icon": "assets/icons/git.svg",
-      "type": "tool",
+      "type": "dev",
       "description": "Hệ thống quản lý phiên bản phân tán miễn phí và mã nguồn mở (trang chính thức git-scm.com): theo dõi lịch sử thay đổi code, làm việc với nhánh (branch), merge và cộng tác qua GitHub/GitLab.",
       "description_en": "The free, open-source distributed version control system (official site: git-scm.com): track code change history, work with branches, merge, and collaborate via GitHub/GitLab.",
       "tags": [
@@ -510,7 +505,7 @@
       "name": "Internet Download Manager (IDM)",
       "url": "https://www.internetdownloadmanager.com/",
       "icon": "assets/icons/internet-download-manager.png",
-      "type": "software",
+      "type": "utility",
       "description": "Trình quản lý tải xuống cho Windows: chia file thành nhiều luồng tải song song để tăng tốc, tự tải tiếp khi đứt mạng, hẹn giờ tải và tự bắt link tải từ Chrome, Edge, Firefox.",
       "description_en": "A download manager for Windows: splits files into multiple parallel download threads for speed, resumes downloads after connection drops, schedules downloads and automatically captures download links from Chrome, Edge and Firefox.",
       "tags": [
@@ -533,7 +528,7 @@
       "name": "OpenVPN",
       "url": "https://openvpn.net/",
       "icon": "assets/icons/openvpn.png",
-      "type": "software",
+      "type": "utility",
       "description": "Giải pháp VPN mã nguồn mở lâu đời và phổ biến nhất: giao thức OpenVPN cùng phần mềm client/server chạy trên gần như mọi nền tảng, bảo mật bằng mã hoá TLS/SSL mạnh. Bản Community miễn phí cho phép tự dựng server VPN riêng; hãng cũng có bản thương mại Access Server (tự host) và CloudConnexa (cloud) cho doanh nghiệp.",
       "description_en": "The long-standing, widely used open-source VPN solution: the OpenVPN protocol plus client/server software that runs on almost every platform, secured with strong TLS/SSL encryption. The free Community edition lets you run your own VPN server; the commercial Access Server (self-hosted) and CloudConnexa (cloud) editions target businesses.",
       "tags": [
@@ -561,7 +556,7 @@
       "name": "IntelliJ IDEA",
       "url": "https://www.jetbrains.com/idea/",
       "icon": "assets/icons/intellij-idea.svg",
-      "type": "software",
+      "type": "dev",
       "description": "IDE hàng đầu cho Java và Kotlin của JetBrains: gợi ý code thông minh, phân tích tĩnh, refactor mạnh, tích hợp sẵn debugger, profiler, công cụ database và HTTP Client.",
       "description_en": "JetBrains' flagship IDE for Java and Kotlin: smart code completion, static analysis, powerful refactoring, and a built-in debugger, profiler, database tools and HTTP Client.",
       "tags": [
@@ -587,7 +582,7 @@
       "name": "UniKey",
       "url": "https://www.unikey.org/",
       "icon": "assets/icons/unikey.png",
-      "type": "software",
+      "type": "utility",
       "description": "Bộ gõ tiếng Việt phổ biến nhất trên Windows của tác giả Phạm Kim Long: hỗ trợ kiểu gõ Telex, VNI và nhiều kiểu gõ khác trên đầy đủ bảng mã (Unicode, TCVN3, VNI Windows…), kèm kiểm tra chính tả, gõ tắt và công cụ chuyển đổi bảng mã UniKey Toolkit. Nhẹ, miễn phí và là bộ gõ gần như mặc định trên máy tính Windows tại Việt Nam suốt hơn hai thập kỷ.",
       "description_en": "The most popular Vietnamese input method for Windows, by Phạm Kim Long: Telex, VNI and other input styles across every common Vietnamese encoding (Unicode, TCVN3, VNI Windows…), with spell checking, text shortcuts and the bundled UniKey Toolkit encoding converter. Lightweight and free, it has been the near-default Vietnamese keyboard on Windows PCs in Vietnam for over two decades.",
       "tags": [
@@ -611,7 +606,7 @@
       "name": "WinRAR",
       "url": "https://www.win-rar.com/",
       "icon": "assets/icons/winrar.png",
-      "type": "software",
+      "type": "utility",
       "description": "Phần mềm nén và giải nén dữ liệu lâu đời của RARLAB: tạo và mở file RAR, ZIP cùng nhiều định dạng nén phổ biến khác (7Z, TAR, GZIP, ISO…), nổi tiếng nhờ định dạng RAR cho tỉ lệ nén tốt, khả năng chia nhỏ file thành nhiều phần, đặt mật khẩu mã hoá AES-256 và bản ghi phục hồi giúp sửa file nén bị hỏng. Tích hợp chặt vào menu chuột phải của Windows Explorer.",
       "description_en": "RARLAB’s long-standing file archiver: create and extract RAR, ZIP and many other popular archive formats (7Z, TAR, GZIP, ISO…), best known for the RAR format’s strong compression ratio, splitting archives into volumes, AES-256 password encryption and recovery records that can repair damaged archives. Tightly integrated into the Windows Explorer context menu.",
       "tags": [
@@ -635,7 +630,7 @@
       "name": "Python",
       "url": "https://www.python.org/",
       "icon": "assets/icons/python.png",
-      "type": "tool",
+      "type": "dev",
       "description": "Ngôn ngữ lập trình bậc cao với cú pháp dễ đọc và hệ sinh thái thư viện khổng lồ: từ script tự động hoá, phát triển web (Django, Flask, FastAPI) đến khoa học dữ liệu và trí tuệ nhân tạo (NumPy, pandas, PyTorch). Đây là ngôn ngữ được dạy đầu tiên ở nhiều trường học và thường đứng đầu các bảng xếp hạng độ phổ biến TIOBE, PYPL những năm gần đây.",
       "description_en": "A high-level programming language with readable syntax and a vast library ecosystem: from automation scripts and web development (Django, Flask, FastAPI) to data science and artificial intelligence (NumPy, pandas, PyTorch). It is the first language taught in many schools and has topped the TIOBE and PYPL popularity rankings in recent years.",
       "tags": [
@@ -658,10 +653,10 @@
     }
   ],
   "site": {
-    "description": "Danh sách chọn lọc các phần mềm, extension, skill, công cụ và trang web hữu ích.",
-    "tagline": "Thư viện phần mềm, extension, skill và website hữu ích của Cian",
+    "description": "Danh sách chọn lọc các công cụ AI & agent, lập trình, skill và tiện ích hữu ích.",
+    "tagline": "Thư viện AI, lập trình, skill và tiện ích hữu ích của Cian",
     "title": "CianX",
-    "tagline_en": "Cian's library of useful software, extensions, skills and websites",
-    "description_en": "A curated list of useful software, extensions, skills, tools and websites."
+    "tagline_en": "Cian's library of useful AI, dev tools, skills and utilities",
+    "description_en": "A curated list of useful AI agents, developer tools, skills and utilities."
   }
 }
