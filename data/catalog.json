@@ -294,6 +294,32 @@
       "note_en": "Install with npx claude-code-templates@latest (requires Node.js and an existing Claude Code install). A community project by Daniel Ávila (davila7), not an official Anthropic product; roughly 33k GitHub stars as of Nov 2026."
     },
     {
+      "id": "codex",
+      "name": "Codex",
+      "url": "https://github.com/openai/codex",
+      "icon": "assets/icons/codex.png",
+      "type": "ai",
+      "description": "Agent lập trình của OpenAI, trung tâm là bản CLI chạy ngay trong terminal (mã nguồn mở, viết bằng Rust): giao cho Codex việc viết code, sửa lỗi, refactor hay chạy test — nó tự đọc codebase, soạn thay đổi và thực thi lệnh trong môi trường sandbox có kiểm soát. Hệ sinh thái quanh CLI gồm bản cloud chạy trên ChatGPT, extension cho IDE và tích hợp GitHub để review PR.",
+      "description_en": "OpenAI’s coding agent, centered on an open-source CLI that runs right in your terminal (written in Rust): hand Codex a coding task, a bug fix, a refactor or a test run and it reads your codebase, drafts the changes and executes commands in a controlled sandbox. Around the CLI sits an ecosystem: a cloud version running in ChatGPT, an IDE extension and GitHub integration for PR reviews.",
+      "tags": [
+        "AI Agent",
+        "CLI",
+        "OpenAI",
+        "Coding"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "dateAdded": "2026-11-12",
+      "released": "2025-04",
+      "note": "CLI miễn phí và mã nguồn mở (Apache-2.0), nhưng để dùng cần đăng nhập gói ChatGPT (Plus/Pro/Team trở lên) hoặc trả theo API key. Ra mắt tháng 4/2025 (khoảng 135 nghìn sao GitHub tính đến 11/2026). Đừng nhầm với mô hình Codex của OpenAI năm 2021 đã bị khai tử — đây là agent hoàn toàn khác.",
+      "note_en": "The CLI is free and open source (Apache-2.0), but using it requires signing in with a ChatGPT plan (Plus/Pro/Team or above) or paying via an API key. Launched in April 2025 (roughly 135k GitHub stars as of Nov 2026). Not to be confused with OpenAI’s 2021 Codex model, which was shut down — this is an entirely different agent."
+    },
+    {
       "id": "opencode",
       "name": "OpenCode",
       "url": "https://opencode.ai/",
