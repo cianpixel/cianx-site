@@ -23,6 +23,33 @@
   ],
   "items": [
     {
+      "id": "openidea",
+      "name": "OpenIDEA",
+      "url": "https://openidea.sh",
+      "icon": "assets/icons/openidea.png",
+      "type": "dev",
+      "description": "Một IDE mã nguồn mở tái dựng trải nghiệm IntelliJ IDEA trong một ứng dụng native nhẹ hơn hẳn: giữ nguyên hệ phím tắt, cửa sổ công cụ và thói quen Search Everywhere của IDEA, nhưng chạy trên lõi Rust với vỏ Tauri thay vì JVM. Đầy đủ editor, code insight, debugger (giao thức DAP), Git, terminal, client database và HTTP cho hơn 60 ngôn ngữ, kèm một workspace Agents tích hợp sẵn Claude Code và Codex. Theo benchmark của chính dự án, mở một dự án Python khoảng 770 file chỉ mất chừng 1 giây và tốn khoảng 169 MB RAM — một phần nhỏ so với IntelliJ.",
+      "description_en": "An open-source IDE that recreates the IntelliJ IDEA experience in a far lighter native app: the IDEA keymap, tool windows and Search Everywhere habits, but running on a Rust core with a Tauri shell instead of the JVM. It packs an editor, code insight, a debugger (DAP), Git, a terminal, database and HTTP clients for 60+ languages, plus an Agents workspace with built-in Claude Code and Codex integration. In the project’s own benchmarks, opening a roughly 770-file Python project takes about a second and uses around 169 MB of RAM — a fraction of IntelliJ’s footprint.",
+      "tags": [
+        "IDE",
+        "Rust",
+        "Tauri",
+        "IntelliJ",
+        "Code Editor"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-11-12",
+      "released": "2026-10",
+      "note": "Giấy phép Apache-2.0; dự án độc lập, không liên quan tới JetBrains (IntelliJ IDEA là thương hiệu của JetBrains). Còn rất non trẻ — mới ở bản 0.1.x, repo mở từ tháng 10/2026, khoảng 8,5 nghìn sao GitHub tính đến 11/2026 — và từng gây tranh luận vì khẩu hiệu “viết lại bằng Rust” trong khi phần giao diện là TypeScript/Tauri; kiến trúc thực tế là lõi Rust cộng frontend TypeScript. Mã nguồn tại github.com/l0ng-ai/openidea.",
+      "note_en": "Apache-2.0 licensed; an independent project, not affiliated with JetBrains (IntelliJ IDEA is a JetBrains trademark). Very young — still at 0.1.x, with the repo opened in October 2026 and roughly 8.5k GitHub stars as of Nov 2026 — and it drew debate over its “rebuilt in Rust” slogan while the UI is TypeScript/Tauri; the actual architecture is a Rust core plus a TypeScript frontend. Source at github.com/l0ng-ai/openidea."
+    },
+    {
       "id": "habblaud",
       "name": "Habblaud",
       "url": "https://habblaud.com/",
