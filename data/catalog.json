@@ -347,6 +347,32 @@
       "note_en": "The MIT open-source edition is free, needs no account and does no cloud sync; paid Golden/Ultimate editions are also available."
     },
     {
+      "id": "remotion",
+      "name": "Remotion",
+      "url": "https://remotion.dev",
+      "icon": "assets/icons/remotion.png",
+      "type": "dev",
+      "description": "Framework làm video bằng lập trình với React: viết video như viết giao diện web — mỗi frame là một component được dựng bằng React, CSS và SVG — rồi kết xuất thành file MP4 thật bằng Node.js và Chromium headless. Đặc biệt mạnh khi cần tạo video theo dữ liệu ở quy mô lớn (video cá nhân hoá, báo cáo động, nội dung mạng xã hội), kèm Remotion Studio xem trước trực tiếp và hệ sinh thái package cho animation, phụ đề và âm thanh.",
+      "description_en": "A framework for creating videos programmatically with React: author videos the way you build web UIs — every frame is a component rendered with React, CSS and SVG — then render them to real MP4 files using Node.js and headless Chromium. It shines at data-driven video at scale (personalized videos, dynamic reports, social media content), and ships with the Remotion Studio live preview plus an ecosystem of packages for animation, captions and audio.",
+      "tags": [
+        "React",
+        "Video",
+        "Framework",
+        "Animation"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "dateAdded": "2026-11-11",
+      "released": "2020-06",
+      "note": "Dùng giấy phép riêng của Remotion (không phải mã nguồn mở thuần): miễn phí cho cá nhân và công ty tối đa 3 người; tổ chức lớn hơn cần mua Company License. Sản phẩm của Jonny Burger và đội Remotion, khoảng 72 nghìn sao GitHub tính đến 11/2026. Mã nguồn tại github.com/remotion-dev/remotion.",
+      "note_en": "Uses Remotion’s own license (not pure open source): free for individuals and companies with up to 3 employees; larger organizations need a paid Company License. Built by Jonny Burger and the Remotion team, with roughly 72k GitHub stars as of Nov 2026. Source at github.com/remotion-dev/remotion."
+    },
+    {
       "id": "cockpit",
       "name": "Cockpit",
       "url": "https://cockpit-project.org/",
