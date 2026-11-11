@@ -28,80 +28,60 @@
   ],
   "items": [
     {
-      "id": "cockpit-tools",
-      "name": "Cockpit Tools",
-      "url": "https://github.com/jlcodes99/cockpit-tools",
-      "icon": "assets/icons/cockpit-tools.png",
-      "type": "tool",
-      "description": "Ứng dụng desktop quản lý tài khoản cho các AI IDE và CLI lập trình: hỗ trợ Antigravity, Codex, GitHub Copilot, Windsurf, Kiro, Cursor, Grok CLI, CodeBuddy, Qoder, Trae, Zed, ZCode và nhiều công cụ khác. Cho phép lưu nhiều tài khoản và chuyển đổi qua lại bằng một cú nhấp, theo dõi hạn mức (quota) còn lại của từng tài khoản, đặt lịch tự động đánh thức để kích hoạt chu kỳ làm mới quota, và mở song song nhiều instance của cùng một IDE với các tài khoản khác nhau.",
-      "description_en": "A desktop account manager for AI IDEs and coding CLIs, supporting Antigravity, Codex, GitHub Copilot, Windsurf, Kiro, Cursor, Grok CLI, CodeBuddy, Qoder, Trae, Zed, ZCode and more. Store multiple accounts and switch between them in one click, monitor each account’s remaining quota, schedule automatic wake-up tasks that trigger quota refresh cycles, and run several instances of the same IDE in parallel, each signed into a different account.",
-      "tags": [
-        "AI IDE",
-        "Account Manager",
-        "Antigravity",
-        "Cursor",
-        "Quota"
-      ],
-      "platform": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ],
-      "pricing": "Free",
-      "featured": false,
-      "dateAdded": "2026-11-06",
-      "note": "Ứng dụng miễn phí, mã nguồn công khai trên GitHub (tác giả jlcodes99, gần 20 nghìn sao tính đến 11/2026; repo không kèm giấy phép mã nguồn mở rõ ràng). Giao diện hỗ trợ 18 ngôn ngữ, trong đó có tiếng Việt. Lưu ý: đây là dự án độc lập, không liên quan tới Cockpit Project — công cụ quản trị server Linux — dù tên gần giống nhau.",
-      "note_en": "A free app with publicly available source on GitHub (by jlcodes99, nearly 20k stars as of Nov 2026; the repo ships no clear open-source license). The interface supports 18 languages, including Vietnamese. Note: this is an independent project, unrelated to Cockpit Project — the Linux server admin tool — despite the similar name."
-    },
-    {
-      "id": "claude-code-templates",
-      "name": "Claude Code Templates",
-      "url": "https://github.com/davila7/claude-code-templates",
-      "icon": "assets/icons/claude-code-templates.png",
-      "type": "tool",
-      "description": "Registry và CLI mã nguồn mở (MIT) cho hệ sinh thái Claude Code: một kho linh kiện làm sẵn gồm agent, slash command, skill, hook, tích hợp MCP, settings và mod — duyệt và xem trước tại aitmpl.com rồi cài chọn lọc vào từng dự án bằng một lệnh npx, thay vì chép tay các file cấu hình .claude. Kèm sẵn bảng analytics theo dõi phiên làm việc của Claude Code và tính năng health-check rà soát cấu hình.",
-      "description_en": "An open-source registry and CLI (MIT) for the Claude Code ecosystem: a catalog of ready-made components — agents, slash commands, skills, hooks, MCP integrations, settings and mods — that you browse and preview at aitmpl.com, then install selectively into a project with a single npx command instead of hand-copying .claude configuration files. It also ships an analytics dashboard for Claude Code sessions and a health check that audits your setup.",
-      "tags": [
-        "Claude Code",
-        "CLI",
-        "Templates",
-        "Agents",
-        "MCP"
-      ],
-      "platform": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ],
-      "pricing": "Free",
-      "featured": false,
-      "dateAdded": "2026-11-06",
-      "note": "Cài bằng lệnh npx claude-code-templates@latest (cần Node.js và Claude Code đã cài sẵn). Đây là dự án cộng đồng của Daniel Ávila (davila7), không phải sản phẩm chính thức của Anthropic; khoảng 33 nghìn sao GitHub tính đến 11/2026.",
-      "note_en": "Install with npx claude-code-templates@latest (requires Node.js and an existing Claude Code install). A community project by Daniel Ávila (davila7), not an official Anthropic product; roughly 33k GitHub stars as of Nov 2026."
-    },
-    {
-      "id": "cockpit",
-      "name": "Cockpit",
-      "url": "https://cockpit-project.org/",
-      "icon": "assets/icons/cockpit.png",
+      "id": "habblaud",
+      "name": "Habblaud",
+      "url": "https://habblaud.com/",
+      "icon": "assets/icons/habblaud.png",
       "type": "software",
-      "description": "Giao diện web quản trị máy chủ Linux: đăng nhập bằng chính tài khoản hệ thống qua trình duyệt (cổng 9090) để xem tổng quan tài nguyên và quản lý service systemd, lưu trữ/RAID, mạng, tài khoản người dùng, nhật ký hệ thống, máy ảo và container Podman, kèm sẵn một terminal ngay trong trang. Cockpit làm việc trực tiếp với hệ điều hành nên thao tác trên web và trên dòng lệnh luôn nhất quán với nhau.",
-      "description_en": "A web-based graphical interface for Linux servers: sign in with your regular system account in a browser (port 9090) to get a resource overview and manage systemd services, storage/RAID, networking, user accounts, system logs, virtual machines and Podman containers, with a terminal built right into the page. Cockpit talks directly to the operating system, so changes made in the web UI and on the command line always stay in sync.",
+      "description": "Văn phòng ảo pixel-art cho các agent Claude Code và Codex: mỗi project là một phòng, mỗi agent là một nhân vật hiển thị hoạt động trực tiếp, kèm thống kê token, chi phí ước tính, thời gian làm việc và mức dùng 5 giờ/tuần. Chạy 100% local, không telemetry.",
+      "description_en": "A pixel-art virtual office for Claude Code and Codex agents: each project is a room and each agent is a character showing live activity, with token statistics, estimated cost, working time and 5-hour/weekly usage levels. Runs 100% locally, no telemetry.",
       "tags": [
-        "Linux",
-        "Server",
-        "Sysadmin",
-        "Web UI",
-        "Systemd"
+        "AI Agent",
+        "Claude Code",
+        "Codex",
+        "Dashboard",
+        "Pixel Art",
+        "Open Source"
       ],
       "platform": [
+        "Windows",
+        "macOS",
         "Linux"
       ],
       "pricing": "Free",
+      "featured": true,
+      "dateAdded": "2026-10-29",
+      "released": "2026-10",
+      "note": "Miễn phí, mã nguồn mở MIT, không cần tài khoản. Cài bằng 1 prompt dán vào Claude Code/Codex, chạy tại habblaud.localhost:4747; Windows tự cài qua WSL2. Mã nguồn: github.com/marmottajr/habblaud",
+      "note_en": "Free, open source (MIT), no account needed. Installs with a single prompt pasted into Claude Code/Codex and runs at habblaud.localhost:4747; on Windows it installs through WSL2. Source: github.com/marmottajr/habblaud"
+    },
+    {
+      "id": "artemis",
+      "name": "ARTEMIS",
+      "url": "https://github.com/google/artemis",
+      "icon": "assets/icons/artemis.png",
+      "type": "tool",
+      "description": "Framework agent mã nguồn mở của Google giúp trợ lý AI và bộ kiểm thử dùng điện thoại Android thật như con người: nhận yêu cầu bằng ngôn ngữ tự nhiên rồi tự mở app, chạm, vuốt, nhập liệu và kiểm tra kết quả, đồng thời thu thập ảnh chụp màn hình và Logcat. Có hai chế độ Flash (vòng lặp phản ứng nhanh, 3–5 giây mỗi bước) và Pro (lập kế hoạch – thực thi – kiểm tra cho tác vụ dài). Kết nối qua MCP với Antigravity, Claude Code, Codex, Cursor..., hoặc dùng qua web console, CLI và Python SDK; Google công bố đạt 99%+ trên benchmark AndroidWorld.",
+      "description_en": "Google's open-source agent framework that lets AI assistants and test suites use real Android phones like a human: it takes natural-language requests, then opens apps, taps, swipes, types and verifies the results on its own, capturing screenshots and Logcat along the way. Two modes: Flash (a reactive loop at 3–5 seconds per step) and Pro (planner–operator–checker for long tasks). It connects over MCP to Antigravity, Claude Code, Codex, Cursor and more, or runs via its web console, CLI and Python SDK; Google reports a 99%+ success rate on the AndroidWorld benchmark.",
+      "tags": [
+        "AI Agent",
+        "Android",
+        "Automation",
+        "MCP",
+        "Testing"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux",
+        "Android"
+      ],
+      "pricing": "Free",
       "featured": false,
-      "dateAdded": "2026-11-06",
-      "note": "Mã nguồn mở (LGPL), do cộng đồng Cockpit Project phát triển (khởi nguồn từ Red Hat); có sẵn gói cài trên Fedora, RHEL, Debian, Ubuntu, openSUSE, Arch và nhiều bản phân phối khác. Mã nguồn tại github.com/cockpit-project/cockpit.",
-      "note_en": "Open source (LGPL), developed by the Cockpit Project community (originated at Red Hat); packaged for Fedora, RHEL, Debian, Ubuntu, openSUSE, Arch and many other distributions. Source code at github.com/cockpit-project/cockpit."
+      "dateAdded": "2026-10-30",
+      "released": "2026-08",
+      "note": "Mã nguồn mở Apache-2.0 của Google. Cần điện thoại Android thật hoặc emulator đã bật USB debugging, Python 3.12+ và API key của một model multimodal (Gemini, Claude, GPT-4o, Qwen-VL...) — chi phí model do bạn tự trả theo nhà cung cấp. Hiện chỉ hỗ trợ Android, iOS đang trong roadmap.",
+      "note_en": "Open source under Apache-2.0 by Google. Requires a real Android phone or an emulator with USB debugging enabled, Python 3.12+, and an API key for a multimodal model (Gemini, Claude, GPT-4o, Qwen-VL...) — model costs are billed to your own provider account. Android only for now; iOS is on the roadmap."
     },
     {
       "id": "shardbrowser",
@@ -126,6 +106,7 @@
       "pricing": "Free",
       "featured": false,
       "dateAdded": "2026-10-30",
+      "released": "2026-05",
       "note": "Tên gọi cũ là ShardX Launcher (đổi tên từ bản 2.1.0). Launcher mở nguồn theo MIT nhưng engine Chromium là bản đóng nguồn do launcher tự tải và cập nhật; nhà phát triển kiếm doanh thu từ dịch vụ proxy ProxyShard bán riêng. Bản macOS chỉ chạy trên Apple Silicon; bản cài Windows/macOS chưa được ký số/notarize.",
       "note_en": "Formerly called ShardX Launcher (renamed in v2.1.0). The launcher is MIT open source, but the Chromium engine is a closed-source binary that the launcher downloads and updates itself; the vendor makes its money from the separate ProxyShard proxy service. The macOS build is Apple Silicon only, and the Windows/macOS installers are not code-signed/notarized."
     },
@@ -152,35 +133,35 @@
       "pricing": "Free",
       "featured": false,
       "dateAdded": "2026-10-30",
+      "released": "2026-04",
       "note": "Mã nguồn mở Apache-2.0 (Graphify Labs). Cần Claude Code và Python 3.10+; cài bằng lệnh: pip install graphifyy && graphify install (gói PyPI tạm thời mang tên graphifyy trong lúc chờ lấy lại tên graphify). Nhóm phát triển công bố tiết kiệm tới 71,5 lần token mỗi truy vấn so với đọc file thô.",
       "note_en": "Open source under Apache-2.0 (Graphify Labs). Requires Claude Code and Python 3.10+; install with: pip install graphifyy && graphify install (the PyPI package is temporarily named graphifyy while the graphify name is being reclaimed). The authors report up to 71.5x fewer tokens per query compared with reading the raw files."
     },
     {
-      "id": "artemis",
-      "name": "ARTEMIS",
-      "url": "https://github.com/google/artemis",
-      "icon": "assets/icons/artemis.png",
-      "type": "tool",
-      "description": "Framework agent mã nguồn mở của Google giúp trợ lý AI và bộ kiểm thử dùng điện thoại Android thật như con người: nhận yêu cầu bằng ngôn ngữ tự nhiên rồi tự mở app, chạm, vuốt, nhập liệu và kiểm tra kết quả, đồng thời thu thập ảnh chụp màn hình và Logcat. Có hai chế độ Flash (vòng lặp phản ứng nhanh, 3–5 giây mỗi bước) và Pro (lập kế hoạch – thực thi – kiểm tra cho tác vụ dài). Kết nối qua MCP với Antigravity, Claude Code, Codex, Cursor..., hoặc dùng qua web console, CLI và Python SDK; Google công bố đạt 99%+ trên benchmark AndroidWorld.",
-      "description_en": "Google's open-source agent framework that lets AI assistants and test suites use real Android phones like a human: it takes natural-language requests, then opens apps, taps, swipes, types and verifies the results on its own, capturing screenshots and Logcat along the way. Two modes: Flash (a reactive loop at 3–5 seconds per step) and Pro (planner–operator–checker for long tasks). It connects over MCP to Antigravity, Claude Code, Codex, Cursor and more, or runs via its web console, CLI and Python SDK; Google reports a 99%+ success rate on the AndroidWorld benchmark.",
+      "id": "orca",
+      "name": "Orca",
+      "url": "https://www.onorca.dev/",
+      "icon": "assets/icons/orca.png",
+      "type": "software",
+      "description": "Môi trường desktop để chạy nhiều AI coding agent song song (Claude Code, Codex, OpenCode, Cursor CLI, Copilot...): mỗi agent làm việc trong một git worktree riêng nên không đụng file của nhau, sau đó so sánh diff và chọn kết quả tốt nhất.",
+      "description_en": "A desktop environment for running multiple AI coding agents in parallel (Claude Code, Codex, OpenCode, Cursor CLI, Copilot...): each agent works in its own git worktree so they never touch each other's files, then you compare the diffs and pick the best result.",
       "tags": [
         "AI Agent",
-        "Android",
-        "Automation",
-        "MCP",
-        "Testing"
+        "Orchestrator",
+        "Git Worktree",
+        "Open Source"
       ],
       "platform": [
         "Windows",
         "macOS",
-        "Linux",
-        "Android"
+        "Linux"
       ],
       "pricing": "Free",
       "featured": false,
-      "dateAdded": "2026-10-30",
-      "note": "Mã nguồn mở Apache-2.0 của Google. Cần điện thoại Android thật hoặc emulator đã bật USB debugging, Python 3.12+ và API key của một model multimodal (Gemini, Claude, GPT-4o, Qwen-VL...) — chi phí model do bạn tự trả theo nhà cung cấp. Hiện chỉ hỗ trợ Android, iOS đang trong roadmap.",
-      "note_en": "Open source under Apache-2.0 by Google. Requires a real Android phone or an emulator with USB debugging enabled, Python 3.12+, and an API key for a multimodal model (Gemini, Claude, GPT-4o, Qwen-VL...) — model costs are billed to your own provider account. Android only for now; iOS is on the roadmap."
+      "dateAdded": "2026-10-29",
+      "released": "2026-03",
+      "note": "Miễn phí, mã nguồn mở MIT (của Stably AI); agent chạy bên trong dùng subscription/API key của chính bạn. Có app companion iOS/Android.",
+      "note_en": "Free and open source (MIT, by Stably AI); the agents inside run on your own subscription/API keys. Companion app available for iOS/Android."
     },
     {
       "id": "claude-code-game-studios",
@@ -205,8 +186,63 @@
       "pricing": "Free",
       "featured": false,
       "dateAdded": "2026-10-30",
+      "released": "2026-02",
       "note": "Mã nguồn mở MIT (tác giả Donchitos). Cách dùng: clone repo làm template cho project game, mở Claude Code tại thư mục gốc rồi chạy /start. Cần Git, Python 3 và Bash (Windows dùng Git Bash kèm Git for Windows).",
       "note_en": "Open source under MIT (by Donchitos). Usage: clone the repo as a template for your game project, open Claude Code at the project root and run /start. Requires Git, Python 3 and Bash (on Windows, the Bash bundled with Git for Windows)."
+    },
+    {
+      "id": "cockpit-tools",
+      "name": "Cockpit Tools",
+      "url": "https://github.com/jlcodes99/cockpit-tools",
+      "icon": "assets/icons/cockpit-tools.png",
+      "type": "tool",
+      "description": "Ứng dụng desktop quản lý tài khoản cho các AI IDE và CLI lập trình: hỗ trợ Antigravity, Codex, GitHub Copilot, Windsurf, Kiro, Cursor, Grok CLI, CodeBuddy, Qoder, Trae, Zed, ZCode và nhiều công cụ khác. Cho phép lưu nhiều tài khoản và chuyển đổi qua lại bằng một cú nhấp, theo dõi hạn mức (quota) còn lại của từng tài khoản, đặt lịch tự động đánh thức để kích hoạt chu kỳ làm mới quota, và mở song song nhiều instance của cùng một IDE với các tài khoản khác nhau.",
+      "description_en": "A desktop account manager for AI IDEs and coding CLIs, supporting Antigravity, Codex, GitHub Copilot, Windsurf, Kiro, Cursor, Grok CLI, CodeBuddy, Qoder, Trae, Zed, ZCode and more. Store multiple accounts and switch between them in one click, monitor each account’s remaining quota, schedule automatic wake-up tasks that trigger quota refresh cycles, and run several instances of the same IDE in parallel, each signed into a different account.",
+      "tags": [
+        "AI IDE",
+        "Account Manager",
+        "Antigravity",
+        "Cursor",
+        "Quota"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-11-06",
+      "released": "2026-01",
+      "note": "Ứng dụng miễn phí, mã nguồn công khai trên GitHub (tác giả jlcodes99, gần 20 nghìn sao tính đến 11/2026; repo không kèm giấy phép mã nguồn mở rõ ràng). Giao diện hỗ trợ 18 ngôn ngữ, trong đó có tiếng Việt. Lưu ý: đây là dự án độc lập, không liên quan tới Cockpit Project — công cụ quản trị server Linux — dù tên gần giống nhau.",
+      "note_en": "A free app with publicly available source on GitHub (by jlcodes99, nearly 20k stars as of Nov 2026; the repo ships no clear open-source license). The interface supports 18 languages, including Vietnamese. Note: this is an independent project, unrelated to Cockpit Project — the Linux server admin tool — despite the similar name."
+    },
+    {
+      "id": "antigravity-cli",
+      "name": "Antigravity CLI",
+      "url": "https://antigravity.google/",
+      "icon": "assets/icons/antigravity-cli.png",
+      "type": "tool",
+      "description": "Phiên bản dòng lệnh (lệnh agy) của nền tảng lập trình agent-first Antigravity của Google: mang khả năng agent của Antigravity 2.0 — suy luận nhiều bước, sửa nhiều file, gọi công cụ — vào thẳng terminal, thay thế Gemini CLI.",
+      "description_en": "The command-line edition (the `agy` command) of Google's agent-first Antigravity platform: it brings Antigravity 2.0's agent abilities — multi-step reasoning, editing many files, tool calling — straight into the terminal, replacing Gemini CLI.",
+      "tags": [
+        "AI Agent",
+        "CLI",
+        "Google",
+        "Gemini",
+        "Terminal"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "dateAdded": "2026-10-29",
+      "released": "2025-11",
+      "note": "Miễn phí cho cá nhân khi đăng nhập tài khoản Google; hạn mức cao hơn theo gói Google AI Pro/Ultra. Cài bằng script từ antigravity.google/cli.",
+      "note_en": "Free for individuals when signed in with a Google account; higher limits on the Google AI Pro/Ultra plans. Installed via the script at antigravity.google/cli."
     },
     {
       "id": "superpowers",
@@ -231,8 +267,240 @@
       "pricing": "Free",
       "featured": false,
       "dateAdded": "2026-10-30",
+      "released": "2025-10",
       "note": "Mã nguồn mở MIT, của Jesse Vincent (obra) / Prime Radiant. Cài riêng cho từng harness; với Claude Code: /plugin install superpowers@claude-plugins-official.",
       "note_en": "Open source under MIT, by Jesse Vincent (obra) / Prime Radiant. Installed separately for each harness; on Claude Code: /plugin install superpowers@claude-plugins-official."
+    },
+    {
+      "id": "claude-code-templates",
+      "name": "Claude Code Templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "icon": "assets/icons/claude-code-templates.png",
+      "type": "tool",
+      "description": "Registry và CLI mã nguồn mở (MIT) cho hệ sinh thái Claude Code: một kho linh kiện làm sẵn gồm agent, slash command, skill, hook, tích hợp MCP, settings và mod — duyệt và xem trước tại aitmpl.com rồi cài chọn lọc vào từng dự án bằng một lệnh npx, thay vì chép tay các file cấu hình .claude. Kèm sẵn bảng analytics theo dõi phiên làm việc của Claude Code và tính năng health-check rà soát cấu hình.",
+      "description_en": "An open-source registry and CLI (MIT) for the Claude Code ecosystem: a catalog of ready-made components — agents, slash commands, skills, hooks, MCP integrations, settings and mods — that you browse and preview at aitmpl.com, then install selectively into a project with a single npx command instead of hand-copying .claude configuration files. It also ships an analytics dashboard for Claude Code sessions and a health check that audits your setup.",
+      "tags": [
+        "Claude Code",
+        "CLI",
+        "Templates",
+        "Agents",
+        "MCP"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-11-06",
+      "released": "2025-07",
+      "note": "Cài bằng lệnh npx claude-code-templates@latest (cần Node.js và Claude Code đã cài sẵn). Đây là dự án cộng đồng của Daniel Ávila (davila7), không phải sản phẩm chính thức của Anthropic; khoảng 33 nghìn sao GitHub tính đến 11/2026.",
+      "note_en": "Install with npx claude-code-templates@latest (requires Node.js and an existing Claude Code install). A community project by Daniel Ávila (davila7), not an official Anthropic product; roughly 33k GitHub stars as of Nov 2026."
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "url": "https://opencode.ai/",
+      "icon": "assets/icons/opencode.png",
+      "type": "tool",
+      "description": "AI coding agent mã nguồn mở chạy trong terminal (cũng có app desktop và extension IDE): viết, sửa và debug code bằng ngôn ngữ tự nhiên, kết nối hơn 75 nhà cung cấp model như Claude, GPT, Gemini hoặc model local qua Ollama, không bị khoá vào một hãng duy nhất.",
+      "description_en": "An open-source AI coding agent that runs in the terminal (also available as a desktop app and IDE extension): write, edit and debug code in natural language, connected to 75+ model providers such as Claude, GPT, Gemini or local models via Ollama — never locked to a single vendor.",
+      "tags": [
+        "AI Agent",
+        "Coding Agent",
+        "CLI",
+        "Terminal",
+        "Open Source"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "dateAdded": "2026-10-29",
+      "released": "2025-04",
+      "note": "Phần mềm miễn phí (MIT); chi phí chính là API/subscription của model bạn dùng, OpenCode cũng có gói Go/Zen riêng.",
+      "note_en": "The software itself is free (MIT); the main cost is your model's API/subscription. OpenCode also offers its own Go/Zen plans."
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "url": "https://www.usebruno.com/",
+      "icon": "assets/icons/bruno.png",
+      "type": "software",
+      "description": "API client mã nguồn mở thay thế Postman/Insomnia: chạy offline, lưu collection thành các file text .bru ngay trong thư mục project nên quản lý phiên bản bằng Git dễ dàng; hỗ trợ REST, GraphQL, gRPC và WebSocket.",
+      "description_en": "An open-source API client that replaces Postman/Insomnia: it runs offline and stores collections as plain-text .bru files right inside your project folder, so they version cleanly with Git; supports REST, GraphQL, gRPC and WebSocket.",
+      "tags": [
+        "API",
+        "REST",
+        "Git",
+        "Open Source"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Freemium",
+      "featured": false,
+      "dateAdded": "2026-10-29",
+      "released": "2022-09",
+      "note": "Bản mã nguồn mở MIT miễn phí, không cần tài khoản, không đồng bộ cloud; có thêm các bản trả phí Golden/Ultimate.",
+      "note_en": "The MIT open-source edition is free, needs no account and does no cloud sync; paid Golden/Ultimate editions are also available."
+    },
+    {
+      "id": "cockpit",
+      "name": "Cockpit",
+      "url": "https://cockpit-project.org/",
+      "icon": "assets/icons/cockpit.png",
+      "type": "software",
+      "description": "Giao diện web quản trị máy chủ Linux: đăng nhập bằng chính tài khoản hệ thống qua trình duyệt (cổng 9090) để xem tổng quan tài nguyên và quản lý service systemd, lưu trữ/RAID, mạng, tài khoản người dùng, nhật ký hệ thống, máy ảo và container Podman, kèm sẵn một terminal ngay trong trang. Cockpit làm việc trực tiếp với hệ điều hành nên thao tác trên web và trên dòng lệnh luôn nhất quán với nhau.",
+      "description_en": "A web-based graphical interface for Linux servers: sign in with your regular system account in a browser (port 9090) to get a resource overview and manage systemd services, storage/RAID, networking, user accounts, system logs, virtual machines and Podman containers, with a terminal built right into the page. Cockpit talks directly to the operating system, so changes made in the web UI and on the command line always stay in sync.",
+      "tags": [
+        "Linux",
+        "Server",
+        "Sysadmin",
+        "Web UI",
+        "Systemd"
+      ],
+      "platform": [
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-11-06",
+      "released": "2013-11",
+      "note": "Mã nguồn mở (LGPL), do cộng đồng Cockpit Project phát triển (khởi nguồn từ Red Hat); có sẵn gói cài trên Fedora, RHEL, Debian, Ubuntu, openSUSE, Arch và nhiều bản phân phối khác. Mã nguồn tại github.com/cockpit-project/cockpit.",
+      "note_en": "Open source (LGPL), developed by the Cockpit Project community (originated at Red Hat); packaged for Fedora, RHEL, Debian, Ubuntu, openSUSE, Arch and many other distributions. Source code at github.com/cockpit-project/cockpit."
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "url": "https://nodejs.org/",
+      "icon": "assets/icons/nodejs.png",
+      "type": "tool",
+      "description": "Môi trường chạy JavaScript ngoài trình duyệt, xây trên engine V8 của Chrome: dùng cùng một ngôn ngữ cho cả frontend lẫn backend, đi kèm npm — kho phần mềm lớn nhất thế giới. Mô hình event-driven với I/O không chặn (non-blocking) khiến Node.js đặc biệt phù hợp cho web server, API, ứng dụng realtime và các công cụ dòng lệnh.",
+      "description_en": "A JavaScript runtime that runs outside the browser, built on Chrome’s V8 engine: one language for both frontend and backend, bundled with npm — the world’s largest software registry. Its event-driven, non-blocking I/O model makes Node.js a natural fit for web servers, APIs, realtime applications and command-line tools.",
+      "tags": [
+        "JavaScript",
+        "Runtime",
+        "Backend",
+        "npm"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-11-11",
+      "released": "2009-05",
+      "note": "Mã nguồn mở (MIT), do OpenJS Foundation quản lý; ra mắt tháng 5/2009 bởi Ryan Dahl. Các bản số chẵn là LTS được hỗ trợ dài hạn — nên dùng LTS cho môi trường production.",
+      "note_en": "Open source (MIT), stewarded by the OpenJS Foundation; first released in May 2009 by Ryan Dahl. Even-numbered releases are LTS with long-term support — prefer LTS for production."
+    },
+    {
+      "id": "navicat-premium",
+      "name": "Navicat Premium",
+      "url": "https://www.navicat.com/en/products/navicat-premium",
+      "icon": "assets/icons/navicat-premium.png",
+      "type": "software",
+      "description": "Công cụ quản lý và phát triển cơ sở dữ liệu tất cả trong một: kết nối đồng thời MySQL, PostgreSQL, MariaDB, SQL Server, Oracle, SQLite, MongoDB, Redis và Snowflake từ một ứng dụng duy nhất, hỗ trợ thiết kế mô hình dữ liệu, đồng bộ và di chuyển dữ liệu.",
+      "description_en": "An all-in-one database management and development tool: connect to MySQL, PostgreSQL, MariaDB, SQL Server, Oracle, SQLite, MongoDB, Redis and Snowflake simultaneously from a single app, with data modeling, synchronization and migration tools.",
+      "tags": [
+        "Database",
+        "SQL",
+        "MySQL",
+        "PostgreSQL",
+        "DBA"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "dateAdded": "2026-10-29",
+      "released": "2009",
+      "note": "Có bản dùng thử 14 ngày; ngoài bản Premium còn có bản riêng cho từng loại database và các cấp Lite/Standard/Enterprise.",
+      "note_en": "14-day free trial; besides Premium there are per-database editions and Lite/Standard/Enterprise tiers."
+    },
+    {
+      "id": "sublime-text",
+      "name": "Sublime Text",
+      "url": "https://www.sublimetext.com/",
+      "icon": "assets/icons/sublime-text.png",
+      "type": "software",
+      "description": "Trình soạn thảo code siêu nhẹ và khởi động cực nhanh: Goto Anything, chỉnh sửa nhiều vị trí cùng lúc, Command Palette, tuỳ biến sâu bằng JSON và mở rộng bằng plugin Python qua Package Control.",
+      "description_en": "A featherweight code editor that starts almost instantly: Goto Anything, editing at multiple positions at once, Command Palette, deep customization via JSON and Python plugins through Package Control.",
+      "tags": [
+        "Code",
+        "Editor",
+        "Plugin"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "dateAdded": "2026-10-29",
+      "released": "2008-01",
+      "note": "Tải và dùng thử miễn phí không giới hạn thời gian; cần mua license để sử dụng lâu dài.",
+      "note_en": "Free to download and evaluate with no time limit; a license is required for continued use."
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "url": "https://git-scm.com/",
+      "icon": "assets/icons/git.svg",
+      "type": "tool",
+      "description": "Hệ thống quản lý phiên bản phân tán miễn phí và mã nguồn mở (trang chính thức git-scm.com): theo dõi lịch sử thay đổi code, làm việc với nhánh (branch), merge và cộng tác qua GitHub/GitLab.",
+      "description_en": "The free, open-source distributed version control system (official site: git-scm.com): track code change history, work with branches, merge, and collaborate via GitHub/GitLab.",
+      "tags": [
+        "Version Control",
+        "Git",
+        "Open Source"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-10-29",
+      "released": "2005-04",
+      "note": "Phần mềm nền tảng của hầu hết các công cụ trong danh sách này; cài kèm Git Bash trên Windows.",
+      "note_en": "Foundational to most tools in this list; the Windows installer includes Git Bash."
+    },
+    {
+      "id": "internet-download-manager",
+      "name": "Internet Download Manager (IDM)",
+      "url": "https://www.internetdownloadmanager.com/",
+      "icon": "assets/icons/internet-download-manager.png",
+      "type": "software",
+      "description": "Trình quản lý tải xuống cho Windows: chia file thành nhiều luồng tải song song để tăng tốc, tự tải tiếp khi đứt mạng, hẹn giờ tải và tự bắt link tải từ Chrome, Edge, Firefox.",
+      "description_en": "A download manager for Windows: splits files into multiple parallel download threads for speed, resumes downloads after connection drops, schedules downloads and automatically captures download links from Chrome, Edge and Firefox.",
+      "tags": [
+        "Download",
+        "IDM",
+        "Windows"
+      ],
+      "platform": [
+        "Windows"
+      ],
+      "pricing": "Paid",
+      "featured": false,
+      "dateAdded": "2026-10-29",
+      "released": "2001-06",
+      "note": "Dùng thử miễn phí 30 ngày, sau đó cần mua license (có bản 1 năm và trọn đời). Chỉ hỗ trợ Windows.",
+      "note_en": "Free 30-day trial, then a license is required (1-year and lifetime options). Windows only."
     },
     {
       "id": "openvpn",
@@ -258,134 +526,9 @@
       "pricing": "Freemium",
       "featured": false,
       "dateAdded": "2026-10-29",
+      "released": "2001-05",
       "note": "Community Edition theo giấy phép GPL, miễn phí hoàn toàn; client chính thức OpenVPN Connect tải miễn phí — bản thương mại tính phí theo số kết nối đồng thời.",
       "note_en": "The Community Edition is fully free under the GPL and the official OpenVPN Connect client is a free download; commercial editions are priced per concurrent connection."
-    },
-    {
-      "id": "orca",
-      "name": "Orca",
-      "url": "https://www.onorca.dev/",
-      "icon": "assets/icons/orca.png",
-      "type": "software",
-      "description": "Môi trường desktop để chạy nhiều AI coding agent song song (Claude Code, Codex, OpenCode, Cursor CLI, Copilot...): mỗi agent làm việc trong một git worktree riêng nên không đụng file của nhau, sau đó so sánh diff và chọn kết quả tốt nhất.",
-      "description_en": "A desktop environment for running multiple AI coding agents in parallel (Claude Code, Codex, OpenCode, Cursor CLI, Copilot...): each agent works in its own git worktree so they never touch each other's files, then you compare the diffs and pick the best result.",
-      "tags": [
-        "AI Agent",
-        "Orchestrator",
-        "Git Worktree",
-        "Open Source"
-      ],
-      "platform": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ],
-      "pricing": "Free",
-      "featured": false,
-      "dateAdded": "2026-10-29",
-      "note": "Miễn phí, mã nguồn mở MIT (của Stably AI); agent chạy bên trong dùng subscription/API key của chính bạn. Có app companion iOS/Android.",
-      "note_en": "Free and open source (MIT, by Stably AI); the agents inside run on your own subscription/API keys. Companion app available for iOS/Android."
-    },
-    {
-      "id": "antigravity-cli",
-      "name": "Antigravity CLI",
-      "url": "https://antigravity.google/",
-      "icon": "assets/icons/antigravity-cli.png",
-      "type": "tool",
-      "description": "Phiên bản dòng lệnh (lệnh agy) của nền tảng lập trình agent-first Antigravity của Google: mang khả năng agent của Antigravity 2.0 — suy luận nhiều bước, sửa nhiều file, gọi công cụ — vào thẳng terminal, thay thế Gemini CLI.",
-      "description_en": "The command-line edition (the `agy` command) of Google's agent-first Antigravity platform: it brings Antigravity 2.0's agent abilities — multi-step reasoning, editing many files, tool calling — straight into the terminal, replacing Gemini CLI.",
-      "tags": [
-        "AI Agent",
-        "CLI",
-        "Google",
-        "Gemini",
-        "Terminal"
-      ],
-      "platform": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ],
-      "pricing": "Freemium",
-      "featured": false,
-      "dateAdded": "2026-10-29",
-      "note": "Miễn phí cho cá nhân khi đăng nhập tài khoản Google; hạn mức cao hơn theo gói Google AI Pro/Ultra. Cài bằng script từ antigravity.google/cli.",
-      "note_en": "Free for individuals when signed in with a Google account; higher limits on the Google AI Pro/Ultra plans. Installed via the script at antigravity.google/cli."
-    },
-    {
-      "id": "opencode",
-      "name": "OpenCode",
-      "url": "https://opencode.ai/",
-      "icon": "assets/icons/opencode.png",
-      "type": "tool",
-      "description": "AI coding agent mã nguồn mở chạy trong terminal (cũng có app desktop và extension IDE): viết, sửa và debug code bằng ngôn ngữ tự nhiên, kết nối hơn 75 nhà cung cấp model như Claude, GPT, Gemini hoặc model local qua Ollama, không bị khoá vào một hãng duy nhất.",
-      "description_en": "An open-source AI coding agent that runs in the terminal (also available as a desktop app and IDE extension): write, edit and debug code in natural language, connected to 75+ model providers such as Claude, GPT, Gemini or local models via Ollama — never locked to a single vendor.",
-      "tags": [
-        "AI Agent",
-        "Coding Agent",
-        "CLI",
-        "Terminal",
-        "Open Source"
-      ],
-      "platform": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ],
-      "pricing": "Freemium",
-      "featured": false,
-      "dateAdded": "2026-10-29",
-      "note": "Phần mềm miễn phí (MIT); chi phí chính là API/subscription của model bạn dùng, OpenCode cũng có gói Go/Zen riêng.",
-      "note_en": "The software itself is free (MIT); the main cost is your model's API/subscription. OpenCode also offers its own Go/Zen plans."
-    },
-    {
-      "id": "git",
-      "name": "Git",
-      "url": "https://git-scm.com/",
-      "icon": "assets/icons/git.svg",
-      "type": "tool",
-      "description": "Hệ thống quản lý phiên bản phân tán miễn phí và mã nguồn mở (trang chính thức git-scm.com): theo dõi lịch sử thay đổi code, làm việc với nhánh (branch), merge và cộng tác qua GitHub/GitLab.",
-      "description_en": "The free, open-source distributed version control system (official site: git-scm.com): track code change history, work with branches, merge, and collaborate via GitHub/GitLab.",
-      "tags": [
-        "Version Control",
-        "Git",
-        "Open Source"
-      ],
-      "platform": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ],
-      "pricing": "Free",
-      "featured": false,
-      "dateAdded": "2026-10-29",
-      "note": "Phần mềm nền tảng của hầu hết các công cụ trong danh sách này; cài kèm Git Bash trên Windows.",
-      "note_en": "Foundational to most tools in this list; the Windows installer includes Git Bash."
-    },
-    {
-      "id": "bruno",
-      "name": "Bruno",
-      "url": "https://www.usebruno.com/",
-      "icon": "assets/icons/bruno.png",
-      "type": "software",
-      "description": "API client mã nguồn mở thay thế Postman/Insomnia: chạy offline, lưu collection thành các file text .bru ngay trong thư mục project nên quản lý phiên bản bằng Git dễ dàng; hỗ trợ REST, GraphQL, gRPC và WebSocket.",
-      "description_en": "An open-source API client that replaces Postman/Insomnia: it runs offline and stores collections as plain-text .bru files right inside your project folder, so they version cleanly with Git; supports REST, GraphQL, gRPC and WebSocket.",
-      "tags": [
-        "API",
-        "REST",
-        "Git",
-        "Open Source"
-      ],
-      "platform": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ],
-      "pricing": "Freemium",
-      "featured": false,
-      "dateAdded": "2026-10-29",
-      "note": "Bản mã nguồn mở MIT miễn phí, không cần tài khoản, không đồng bộ cloud; có thêm các bản trả phí Golden/Ultimate.",
-      "note_en": "The MIT open-source edition is free, needs no account and does no cloud sync; paid Golden/Ultimate editions are also available."
     },
     {
       "id": "intellij-idea",
@@ -409,96 +552,71 @@
       "pricing": "Freemium",
       "featured": false,
       "dateAdded": "2026-10-29",
+      "released": "2001-01",
       "note": "Tính năng lõi miễn phí, kèm 30 ngày dùng thử bản Ultimate (trả phí dạng thuê bao).",
       "note_en": "Core features are free, with a 30-day trial of the paid Ultimate subscription."
     },
     {
-      "id": "sublime-text",
-      "name": "Sublime Text",
-      "url": "https://www.sublimetext.com/",
-      "icon": "assets/icons/sublime-text.png",
+      "id": "unikey",
+      "name": "UniKey",
+      "url": "https://www.unikey.org/",
+      "icon": "assets/icons/unikey.png",
       "type": "software",
-      "description": "Trình soạn thảo code siêu nhẹ và khởi động cực nhanh: Goto Anything, chỉnh sửa nhiều vị trí cùng lúc, Command Palette, tuỳ biến sâu bằng JSON và mở rộng bằng plugin Python qua Package Control.",
-      "description_en": "A featherweight code editor that starts almost instantly: Goto Anything, editing at multiple positions at once, Command Palette, deep customization via JSON and Python plugins through Package Control.",
+      "description": "Bộ gõ tiếng Việt phổ biến nhất trên Windows của tác giả Phạm Kim Long: hỗ trợ kiểu gõ Telex, VNI và nhiều kiểu gõ khác trên đầy đủ bảng mã (Unicode, TCVN3, VNI Windows…), kèm kiểm tra chính tả, gõ tắt và công cụ chuyển đổi bảng mã UniKey Toolkit. Nhẹ, miễn phí và là bộ gõ gần như mặc định trên máy tính Windows tại Việt Nam suốt hơn hai thập kỷ.",
+      "description_en": "The most popular Vietnamese input method for Windows, by Phạm Kim Long: Telex, VNI and other input styles across every common Vietnamese encoding (Unicode, TCVN3, VNI Windows…), with spell checking, text shortcuts and the bundled UniKey Toolkit encoding converter. Lightweight and free, it has been the near-default Vietnamese keyboard on Windows PCs in Vietnam for over two decades.",
       "tags": [
-        "Code",
-        "Editor",
-        "Plugin"
-      ],
-      "platform": [
-        "Windows",
-        "macOS",
-        "Linux"
-      ],
-      "pricing": "Paid",
-      "featured": false,
-      "dateAdded": "2026-10-29",
-      "note": "Tải và dùng thử miễn phí không giới hạn thời gian; cần mua license để sử dụng lâu dài.",
-      "note_en": "Free to download and evaluate with no time limit; a license is required for continued use."
-    },
-    {
-      "id": "internet-download-manager",
-      "name": "Internet Download Manager (IDM)",
-      "url": "https://www.internetdownloadmanager.com/",
-      "icon": "assets/icons/internet-download-manager.png",
-      "type": "software",
-      "description": "Trình quản lý tải xuống cho Windows: chia file thành nhiều luồng tải song song để tăng tốc, tự tải tiếp khi đứt mạng, hẹn giờ tải và tự bắt link tải từ Chrome, Edge, Firefox.",
-      "description_en": "A download manager for Windows: splits files into multiple parallel download threads for speed, resumes downloads after connection drops, schedules downloads and automatically captures download links from Chrome, Edge and Firefox.",
-      "tags": [
-        "Download",
-        "IDM",
+        "Vietnamese",
+        "Input Method",
+        "Keyboard",
         "Windows"
       ],
       "platform": [
         "Windows"
       ],
-      "pricing": "Paid",
+      "pricing": "Free",
       "featured": false,
-      "dateAdded": "2026-10-29",
-      "note": "Dùng thử miễn phí 30 ngày, sau đó cần mua license (có bản 1 năm và trọn đời). Chỉ hỗ trợ Windows.",
-      "note_en": "Free 30-day trial, then a license is required (1-year and lifetime options). Windows only."
+      "dateAdded": "2026-11-11",
+      "released": "2000",
+      "note": "Phát hành lần đầu năm 2000 (tiền thân là bộ gõ TVNBK viết năm 1994 khi tác giả còn là sinh viên Bách khoa Hà Nội); mã nguồn được công bố năm 2001. Chỉ tải từ trang chính thức unikey.org để tránh các bản giả mạo chèn mã độc.",
+      "note_en": "First released in 2000 (its ancestor was the TVNBK keyboard written in 1994 while the author was a student at Hanoi University of Science and Technology); the source code was published in 2001. Download only from the official unikey.org to avoid tampered copies carrying malware."
     },
     {
-      "id": "navicat-premium",
-      "name": "Navicat Premium",
-      "url": "https://www.navicat.com/en/products/navicat-premium",
-      "icon": "assets/icons/navicat-premium.png",
+      "id": "winrar",
+      "name": "WinRAR",
+      "url": "https://www.win-rar.com/",
+      "icon": "assets/icons/winrar.png",
       "type": "software",
-      "description": "Công cụ quản lý và phát triển cơ sở dữ liệu tất cả trong một: kết nối đồng thời MySQL, PostgreSQL, MariaDB, SQL Server, Oracle, SQLite, MongoDB, Redis và Snowflake từ một ứng dụng duy nhất, hỗ trợ thiết kế mô hình dữ liệu, đồng bộ và di chuyển dữ liệu.",
-      "description_en": "An all-in-one database management and development tool: connect to MySQL, PostgreSQL, MariaDB, SQL Server, Oracle, SQLite, MongoDB, Redis and Snowflake simultaneously from a single app, with data modeling, synchronization and migration tools.",
+      "description": "Phần mềm nén và giải nén dữ liệu lâu đời của RARLAB: tạo và mở file RAR, ZIP cùng nhiều định dạng nén phổ biến khác (7Z, TAR, GZIP, ISO…), nổi tiếng nhờ định dạng RAR cho tỉ lệ nén tốt, khả năng chia nhỏ file thành nhiều phần, đặt mật khẩu mã hoá AES-256 và bản ghi phục hồi giúp sửa file nén bị hỏng. Tích hợp chặt vào menu chuột phải của Windows Explorer.",
+      "description_en": "RARLAB’s long-standing file archiver: create and extract RAR, ZIP and many other popular archive formats (7Z, TAR, GZIP, ISO…), best known for the RAR format’s strong compression ratio, splitting archives into volumes, AES-256 password encryption and recovery records that can repair damaged archives. Tightly integrated into the Windows Explorer context menu.",
       "tags": [
-        "Database",
-        "SQL",
-        "MySQL",
-        "PostgreSQL",
-        "DBA"
+        "Archiver",
+        "Compression",
+        "RAR",
+        "ZIP"
       ],
       "platform": [
-        "Windows",
-        "macOS",
-        "Linux"
+        "Windows"
       ],
       "pricing": "Paid",
       "featured": false,
-      "dateAdded": "2026-10-29",
-      "note": "Có bản dùng thử 14 ngày; ngoài bản Premium còn có bản riêng cho từng loại database và các cấp Lite/Standard/Enterprise.",
-      "note_en": "14-day free trial; besides Premium there are per-database editions and Lite/Standard/Enterprise tiers."
+      "dateAdded": "2026-11-11",
+      "released": "1995-04",
+      "note": "Dùng thử 40 ngày; hết hạn phần mềm vẫn chạy (chỉ hiện hộp thoại nhắc mua bản quyền) nên nhiều người dùng miễn phí trong nhiều năm. Ra mắt lần đầu tháng 4/1995 bởi Eugene Roshal. Bản RAR dòng lệnh có cho macOS, Linux và Android.",
+      "note_en": "40-day trial; after expiry the app keeps working (it only shows a purchase reminder), which is why many people use it free for years. First released in April 1995 by Eugene Roshal. Command-line RAR editions exist for macOS, Linux and Android."
     },
     {
-      "id": "habblaud",
-      "name": "Habblaud",
-      "url": "https://habblaud.com/",
-      "icon": "assets/icons/habblaud.png",
-      "type": "software",
-      "description": "Văn phòng ảo pixel-art cho các agent Claude Code và Codex: mỗi project là một phòng, mỗi agent là một nhân vật hiển thị hoạt động trực tiếp, kèm thống kê token, chi phí ước tính, thời gian làm việc và mức dùng 5 giờ/tuần. Chạy 100% local, không telemetry.",
-      "description_en": "A pixel-art virtual office for Claude Code and Codex agents: each project is a room and each agent is a character showing live activity, with token statistics, estimated cost, working time and 5-hour/weekly usage levels. Runs 100% locally, no telemetry.",
+      "id": "python",
+      "name": "Python",
+      "url": "https://www.python.org/",
+      "icon": "assets/icons/python.png",
+      "type": "tool",
+      "description": "Ngôn ngữ lập trình bậc cao với cú pháp dễ đọc và hệ sinh thái thư viện khổng lồ: từ script tự động hoá, phát triển web (Django, Flask, FastAPI) đến khoa học dữ liệu và trí tuệ nhân tạo (NumPy, pandas, PyTorch). Đây là ngôn ngữ được dạy đầu tiên ở nhiều trường học và thường đứng đầu các bảng xếp hạng độ phổ biến TIOBE, PYPL những năm gần đây.",
+      "description_en": "A high-level programming language with readable syntax and a vast library ecosystem: from automation scripts and web development (Django, Flask, FastAPI) to data science and artificial intelligence (NumPy, pandas, PyTorch). It is the first language taught in many schools and has topped the TIOBE and PYPL popularity rankings in recent years.",
       "tags": [
-        "AI Agent",
-        "Claude Code",
-        "Codex",
-        "Dashboard",
-        "Pixel Art",
-        "Open Source"
+        "Programming Language",
+        "Scripting",
+        "Data Science",
+        "AI"
       ],
       "platform": [
         "Windows",
@@ -506,10 +624,11 @@
         "Linux"
       ],
       "pricing": "Free",
-      "featured": true,
-      "dateAdded": "2026-10-29",
-      "note": "Miễn phí, mã nguồn mở MIT, không cần tài khoản. Cài bằng 1 prompt dán vào Claude Code/Codex, chạy tại habblaud.localhost:4747; Windows tự cài qua WSL2. Mã nguồn: github.com/marmottajr/habblaud",
-      "note_en": "Free, open source (MIT), no account needed. Installs with a single prompt pasted into Claude Code/Codex and runs at habblaud.localhost:4747; on Windows it installs through WSL2. Source: github.com/marmottajr/habblaud"
+      "featured": false,
+      "dateAdded": "2026-11-11",
+      "released": "1991-02",
+      "note": "Mã nguồn mở (giấy phép PSF), do Guido van Rossum sáng tạo và phát hành lần đầu tháng 2/1991. Python 2 đã ngừng hỗ trợ từ năm 2020 — mọi dự án mới nên dùng Python 3.",
+      "note_en": "Open source (PSF license), created by Guido van Rossum and first released in February 1991. Python 2 reached end-of-life in 2020 — all new projects should use Python 3."
     }
   ],
   "site": {
