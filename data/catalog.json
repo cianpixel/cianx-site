@@ -106,6 +106,33 @@
       "note_en": "Open source under Apache-2.0 by Google. Requires a real Android phone or an emulator with USB debugging enabled, Python 3.12+, and an API key for a multimodal model (Gemini, Claude, GPT-4o, Qwen-VL...) — model costs are billed to your own provider account. Android only for now; iOS is on the roadmap."
     },
     {
+      "id": "video-shotcraft",
+      "name": "video-shotcraft",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "icon": "assets/icons/video-shotcraft.svg",
+      "type": "skill",
+      "description": "Một skill cho Claude Code và Codex chuyên làm video quảng bá sản phẩm bằng code: chỉ cần ra lệnh kiểu “làm video promo cho sản phẩm của tôi”, agent sẽ chụp lại các trang thật của sản phẩm, chọn góc máy từ thư viện 150 shot chuyển động đã tinh chỉnh sẵn (124 thẻ công thức), dựng storyboard, animate bằng Remotion, cắt hình theo nhịp nhạc, thêm thiết kế âm thanh, kiểm tra từng frame rồi giao file MP4 hoàn chỉnh còn chỉnh sửa tiếp được. Đây không phải AI sinh video — mọi frame đều được vẽ bằng code từ chính screenshot và nội dung của bạn nên sắc nét và đúng nhận diện thương hiệu.",
+      "description_en": "A skill for Claude Code and Codex that crafts product promo videos in code: tell the agent “make a promo for my product” and it captures your product’s real pages, picks shots from a library of 150 tuned motion recipes (124 recipe cards), storyboards the film, animates it with Remotion, cuts it to the beat, adds sound design, QA-checks every frame and hands you a finished MP4 you can keep editing. It is not an AI video generator — every frame is drawn by code from your own screenshots and copy, so the result stays sharp and on-brand.",
+      "tags": [
+        "Claude Code",
+        "Codex",
+        "Skill",
+        "Video",
+        "Remotion"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-11-12",
+      "released": "2026-07",
+      "note": "Mã nguồn mở Apache-2.0, tác giả Vincent Wei (khoảng 19 nghìn sao GitHub tính đến 11/2026, commit đầu tiên 7/2026). Cài như một skill (file SKILL.md) cho Claude Code hoặc Codex; lúc render cần thêm Node.js/Remotion. Kèm Motion Workbench — trình sửa video kiểu CapCut ngay trên trình duyệt — và khả năng xuất bản nháp sang JianYing (CapCut bản Trung Quốc); thư viện 150 shot xem trước được tại trang Gallery của dự án.",
+      "note_en": "Open source under Apache-2.0, by Vincent Wei (roughly 19k GitHub stars as of Nov 2026; first commit July 2026). Installed as a skill (a SKILL.md file) for Claude Code or Codex; rendering requires Node.js/Remotion. It also includes the Motion Workbench — a CapCut-style editor in the browser — and export to editable JianYing (Chinese CapCut) drafts; all 150 shots can be previewed in the project’s Gallery."
+    },
+    {
       "id": "shardbrowser",
       "name": "ShardBrowser",
       "url": "https://shardbrowser.com/",
