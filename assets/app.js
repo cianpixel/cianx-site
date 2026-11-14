@@ -48,7 +48,7 @@ function badges(i){
   return i.featured?`<div class="badges"><span class="badge badge-star">★ ${t('featured')}</span></div>`:'';
 }
 function cardHTML(i){
-  return `<article class="card" data-id="${esc(i.id)}" tabindex="0" role="button" aria-label="${esc(i.name)}">
+  return `<article class="card" data-id="${esc(i.id)}" data-type="${esc(i.type)}" tabindex="0" role="button" aria-label="${esc(i.name)}">
     ${badges(i)}
     <div class="card-head">
       ${iconBox(i)}
