@@ -78,6 +78,32 @@
       "note_en": "Free, open source (MIT), no account needed. Installs with a single prompt pasted into Claude Code/Codex and runs at habblaud.localhost:4747; on Windows it installs through WSL2. Source: github.com/marmottajr/habblaud"
     },
     {
+      "id": "evondevkit",
+      "name": "evondevKit",
+      "url": "https://evondev-uiux.vercel.app/",
+      "icon": "assets/icons/evondevkit.png",
+      "type": "skill",
+      "description": "Bộ skill cho coding agent của evondev — một lập trình viên frontend Việt Nam. Skill đang có là /evon:ui-ux (beta): dựng mới hoặc làm lại màn hình app theo quy trình của designer — lấy brief, vẽ 2–3 wireframe cho người dùng chọn rồi mới code; kèm soi lỗi UI hiện có, dựng lại mà giữ nguyên brand và dọn code nhưng giao diện không đổi. Mỗi skill là một bộ luật cụ thể có mã số riêng, được kiểm chứng bằng hơn 70 prompt test trên dự án thật rồi mới phát hành, và luôn đọc codebase sẵn có để dùng lại component, token và quy ước của dự án thay vì áp đặt bộ của mình.",
+      "description_en": "A skill kit for coding agents by evondev, a Vietnamese frontend developer. Its current skill, /evon:ui-ux (beta), builds or redesigns app screens the way a designer works — take a brief, draft 2–3 wireframes for you to choose from, then build — plus auditing existing UI, redesigns that keep your brand, and code cleanups that leave the interface unchanged. Every skill is a set of specific, numbered rules, validated with 70+ test prompts on real projects before release, and it reads your existing codebase first to reuse its components, tokens and conventions instead of imposing its own.",
+      "tags": [
+        "Claude Code",
+        "Skill",
+        "UI/UX",
+        "Design"
+      ],
+      "platform": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "pricing": "Free",
+      "featured": false,
+      "dateAdded": "2026-11-15",
+      "released": "2026-09",
+      "note": "Miễn phí, mã nguồn mở MIT (kho GitHub evondev/evondevKit, khoảng 560 sao tính đến 11/2026). Trên Claude Code cài dạng plugin: /plugin marketplace add evondev/evondevKit rồi /plugin install evon@evondevkit — cài một lần, có skill mới chỉ cần cập nhật marketplace; Cursor, Codex, OpenCode, Antigravity và ZCode dùng lệnh npx skills add. Hiện mới có 1 skill UI/UX (kèm bản beta cho app điện thoại), các skill tiếp theo đang được test.",
+      "note_en": "Free and open source under MIT (GitHub repo evondev/evondevKit, roughly 560 stars as of Nov 2026). On Claude Code it installs as a plugin: /plugin marketplace add evondev/evondevKit, then /plugin install evon@evondevkit — install once and new skills arrive via marketplace updates; Cursor, Codex, OpenCode, Antigravity and ZCode use an npx skills add command. It currently ships a single UI/UX skill (with a mobile-app variant in beta); more skills are in testing."
+    },
+    {
       "id": "artemis",
       "name": "ARTEMIS",
       "url": "https://github.com/google/artemis",
